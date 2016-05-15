@@ -2,10 +2,10 @@
 
 ## Contents:
 * *'README.md'*
-* *'run_analisys.R'*: must be launched in *'UCI HAR Dataset'* working directory.
+* *'run_analysis.R'*: must be launched in *'UCI HAR Dataset'* working directory.
 	Reads files from *'UCI HAR Dataset\train'* and *'UCI HAR Dataset\test'* directories
 	and saves to working directory *'finalTable.txt'* Requires *'data.table'* package.
-* *'CodeBook.md': describes variables
+* *'CodeBook.md'*: describes variables
 
 ## The Raw data
 
@@ -28,9 +28,9 @@ Check *'README.txt'* and https://archive.ics.uci.edu/ml/datasets/Human+Activity+
 ### Analisys
 1. Download the dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Unzip dataset
-3. Run *'run_analisys.R'* with *'UCI HAR Dataset'* working directory (install.packages("data.table") if needed)
+3. Run *'run_analysis.R'* with *'UCI HAR Dataset'* working directory (install.packages("data.table") if needed)
 
-### *run_analisys.R* process:
+### *run_analysis.R* process:
 1. Loads activity labels (*'activity_labels.txt'*) and feature labels (*'features.txt'*).
 2. Loads and merges lists of subjects (*'test\subject_test.txt'* and *'train\subject_train.txt'*),
 	feature data (*'test\X_test.txt'* and *'train\X_train.txt'*) and activity data (*'test\y_test.txt'* and *'train\y_train.txt'*).
