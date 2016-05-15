@@ -1,6 +1,6 @@
 # The CodeBook
 № | Column name | Description
------------- | -------------
+------------ | ------------- | -------------
 1 | subject | Subject number
 2 | activity | Activity type
 3 | tbodyacc-mean()-x | Mean values of time domain signals of linear body acceleration by separate axes  (x, y, z)
